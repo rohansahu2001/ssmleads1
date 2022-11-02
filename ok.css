@@ -1,0 +1,143 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(89, 175, 233);
+    z-index: 9999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+.leftsidem{
+ 
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.leftsidem span{
+    color: rgb(255, 38, 0);
+}
+
+.leftsidem h1{
+    color: black;
+    font-size: 39px;
+    text-decoration: solid;
+    margin-bottom: 15px;
+}
+#pol{
+    font-size: 17px;
+    border-radius: 90px;
+    color: red;
+}
+#pol a{
+    color: red;
+}
+.form h1{
+    font-size: 40px;
+}
+#email{
+    height: 6%;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+
+}
+#email h1{
+    font-size: 25px;
+}
+#email h1 svg{
+    height: 20px;
+}
+#email h2{
+    font-size: 20px;
+}
+#email h2 svg{
+    height: 20px;
+}
+@media(max-width: 477px) {
+
+    .form{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(89, 175, 233);
+   
+}
+.form img{
+    width: 100vw;
+    height: 440px;
+}
+#pol{
+    font-size: 14px;
+    border-radius: 90px;
+    color: red;
+    margin-top: 30px;
+}
+#pol a{
+    color: red;
+}
+.form h1{
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+#email{
+    height: 5%;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+
+}
+#email h1{
+    font-size: 15px;
+}
+#email h1 svg{
+    height: 12px;
+}
+#email h2{
+    font-size: 12px;
+}
+#email h2 svg{
+    height: 12px;
+}
+}
+
+
+@media (max-width: 476px){
+    /* .leftsidep h2 {
+        position: absolute;
+        top: -178px;
+        font-size: 29px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+  
+    .rightside img {
+        height: 46vh;
+        width: 100;
+        margin-top: 208px;
+    }
+    .rule1 h3 {
+        margin-top: -133px;
+        font-size: 20px;
+        margin-bottom: -2px;
+    } */
+}
